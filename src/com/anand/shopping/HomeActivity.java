@@ -41,7 +41,8 @@ public class HomeActivity extends Activity {
 		Editor e=(PreferenceManager.getDefaultSharedPreferences(getApplicationContext())).edit();
 		e.putString("username", "");
 		e.putString("password", "");
-		e.putString("name", "");
+		e.putString(
+				"name", "");
 		e.putString("email", "");
 		e.putLong("phone", 0l);
 		e.putBoolean("login_status", false);
